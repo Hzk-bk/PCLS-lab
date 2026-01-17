@@ -5,6 +5,7 @@ function findFirstEven(nums) {
   return null;
 }
 
+
 // Tests
 console.log(findFirstEven([1,3,5,6,8])); // 6
 console.log(findFirstEven([1,3,5]));     // null
