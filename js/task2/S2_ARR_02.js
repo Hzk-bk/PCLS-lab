@@ -9,3 +9,4 @@ function unique(values) {
 // Tests
 console.log(unique([1,2,2,3,1])); // [1,2,3]
 console.log(unique(["a","b","a"])); // ["a","b"]
+
