@@ -1,4 +1,3 @@
-// S2_ARR_01.js
 function cleanNumbers(arr) {
   return arr
     .map(item => +item.trim())
