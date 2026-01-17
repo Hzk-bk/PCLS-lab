@@ -1,5 +1,6 @@
 const makeAdder = x => y => x + y;
 
+
 // Tests
 const add5 = makeAdder(5);
 const add10 = makeAdder(10);
