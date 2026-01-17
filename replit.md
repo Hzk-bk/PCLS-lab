@@ -11,7 +11,11 @@ js/
 ```
 
 ## How to Run
-The project runs JavaScript files using Node.js 20. Click the "Run" button to execute the current task file.
+To run a specific JavaScript file, you can use the shell. Open the shell and type:
+`FILE=js/task1/S1_VAR_01.js npm run start` (replace the path with the file you want to run).
+
+Alternatively, you can run any file directly in the shell with:
+`node js/task1/S1_VAR_02.js`
 
 ## Recent Changes
 - January 17, 2026: Initial setup for Replit environment
