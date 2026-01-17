@@ -8,6 +8,7 @@ function fizzBuzzPlus(N) {
   }
 }
 
+
 // Test
 fizzBuzzPlus(16);
 /* Expected Output:
