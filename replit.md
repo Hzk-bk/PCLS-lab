@@ -1,21 +1,52 @@
 # PCLS-lab
 
 ## Overview
-A JavaScript learning/lab project for practicing programming concepts.
 
-## Project Structure
+This is a JavaScript learning laboratory repository containing educational exercises focused on fundamental JavaScript concepts. The repository is structured as a collection of standalone JavaScript files that demonstrate core language features including variable declarations, type checking, control flow, and data manipulation.
+
+The project serves as a practical learning resource for understanding JavaScript fundamentals without any build tools, frameworks, or external dependencies.
+
+## User Preferences
+
+Preferred communication style: Simple, everyday language.
+
+## System Architecture
+
+### Project Structure
+
+The repository follows a simple, flat file organization pattern:
+
 ```
 js/
-  task1/
-    S1_VAR_01.js  - JavaScript exercise file
+├── task1/      # Variable and type-related exercises
+└── task1b/     # Control flow (if/else) exercises
 ```
 
-## How to Run
-To run a specific JavaScript file, you can use the shell. Open the shell and type:
-`FILE=js/task1/S1_VAR_01.js npm run start` (replace the path with the file you want to run).
+**Design Decision**: Each exercise is a self-contained JavaScript file that can be run independently via Node.js or browser console. This approach was chosen to:
+- Keep exercises isolated and easy to understand
+- Allow learners to run individual files without setup complexity
+- Focus on core JavaScript without framework overhead
 
-Alternatively, you can run any file directly in the shell with:
-`node js/task1/S1_VAR_02.js`
+### Exercise Categories
 
-## Recent Changes
-- January 17, 2026: Initial setup for Replit environment
+**Task 1 (S1_VAR series)**: Covers JavaScript variable fundamentals:
+- Variable declarations (var, let, const)
+- Block scoping behavior
+- Type detection and checking
+- Number handling (NaN, BigInt, type coercion)
+- Object inspection utilities
+
+**Task 1b (S1_IF series)**: Covers control flow:
+- Conditional logic with if/else chains
+- Input validation and normalization
+- Return value patterns
+
+### Runtime Environment
+
+- **Target**: Node.js or browser JavaScript console
+- **No build step required**: Files are plain ES6+ JavaScript
+- **No module system**: Each file is standalone with no imports/exports
+
+## External Dependencies
+
+**None** - This repository intentionally has no external dependencies, package.json, or third-party integrations. All exercises use only built-in JavaScript features and APIs.
