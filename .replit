@@ -25,12 +25,12 @@ args = "Run Selected File"
 name = "Run JavaScript"
 author = "agent"
 
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "node js/task1/S1_VAR_01.js"
-
 [workflows.workflow.metadata]
 outputType = "console"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "node ${FILE:-js/task1/S1_VAR_01.js}"
 
 [[workflows.workflow]]
 name = "Run Selected File"
